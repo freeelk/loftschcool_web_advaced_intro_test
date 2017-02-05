@@ -1,0 +1,406 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    color: #727272;
+    font-family: "fira_sans", serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.container-wide {
+    width: 1200px;
+}
+
+.container-courses-blocks {
+    width: 964px;
+    margin-top: 33px;
+}
+
+.inl-wrapper {
+    font-size: 0px;
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+header {
+    background: #8cc34b;
+}
+
+header:after {
+    content: " ";
+    width: 100%;
+    height: 7px;
+    display: block;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cccccc+0,ffffff+100 */
+    background: #cccccc; /* Old browsers */
+    background: -moz-linear-gradient(top,  #cccccc 0%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #cccccc 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #cccccc 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+
+header .container-wide {
+    position: relative;
+}
+
+.header-photo {
+    position: relative;
+    height: 90px;
+    width: 62px;
+    margin-left: 30px;
+    margin-right: 18px;
+}
+
+.header-photo img {
+    max-height: 62px;
+    max-width: 62px;
+    border: solid 2px #ffffff;
+    border-radius: 50%;
+}
+
+.header-photo-inner {
+    position: absolute;
+    height: 60px;
+    top: 50%;
+    margin-top: -30px;
+}
+
+.header-name {
+    width: 400px;
+    position: relative;
+    height: 90px;
+    color: #ffffff;
+}
+
+.header-name-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+}
+.header-name-email {
+    font-size: 15px;
+}
+
+
+
+.header-name:before{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.header-name-inner {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-social {
+    width: 168px;
+    position: relative;
+    height: 90px;
+}
+
+.header-social-inner {
+    position: absolute;
+    height: 32px;
+    top: 50%;
+    margin-top: -16px;
+}
+
+.socials {
+
+}
+
+.socials-item {
+    width: 38px;
+    height: 32px;
+    margin-right: 12px;
+    background-repeat: no-repeat;
+    font-size: 0;
+}
+
+
+.socials-item-link {
+
+}
+
+.socials-github {
+    background-position: -38px 0px;
+    background-image: url("../images/social-sprite.png");
+}
+
+.socials-github:hover {
+    background-position: -38px -32px;
+    background-image: url("../images/social-sprite.png");
+}
+
+.socials-skype {
+    background-position: 0px 0px;
+    background-image: url("../images/social-sprite.png");
+}
+
+.socials-skype:hover {
+    background-position: 0px -32px;
+    background-image: url("../images/social-sprite.png");
+}
+
+.socials-vkontakte {
+    background-position: -75px 0px;
+    background-image: url("../images/social-sprite.png");
+}
+
+.socials-vkontakte:hover {
+    background-position: -75px -32px;
+    background-image: url("../images/social-sprite.png");
+}
+
+footer {
+    height: 72px;
+    margin-top: -72px;
+    position: relative;
+    background: #212121;
+}
+
+.empty {
+    height: 72px;
+}
+
+footer .container-wide {
+    height: 72px;
+}
+
+.about {
+    background-color: #ffffff;
+}
+
+.about-myself {
+    background-image: url("../images/about-myself.png");
+}
+
+.about-experience {
+    background-image: url("../images/about-experience.png");
+}
+
+
+.courses {
+    background-image: url('../images/gplaypattern.png');
+}
+
+.about, .courses {
+    padding-top: 56px;
+    padding-bottom: 78px;
+}
+
+.headline_1, .headline_2 {
+    text-align: center;
+}
+
+.headline_1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #000000;
+    margin: 10px;
+}
+
+.headline_2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #727272;
+    margin: 15px;
+}
+
+.headline_3 {
+    text-align: left;
+    font-size: 21px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top:0px;
+    font-weight: normal;
+    color: #212121;
+}
+
+.about-wrapper {
+    margin-top: 39px;
+}
+.content-text {
+    color: #7e7e7e;
+    text-align: left;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.inl-block {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+    padding: 0px;
+}
+
+.inl-block-courses {
+    width: 302px;
+    min-height: 200px;
+    margin: 9px;
+    border: solid 1px #e5e5e3;
+    background-color: #ffffff;
+}
+
+.inl-block-courses:hover .course-image{
+    border-bottom: solid 4px  #8cc34b;
+}
+
+.inl-block-courses:hover .course-header{
+    color: #8cc34b;
+}
+
+.block-courses-fade {
+    position: absolute;
+    background-color: #cccccc;
+    opacity: 0.5;
+    width: 300px;
+    height: 0px;
+}
+
+.course-image {
+    max-width: 300px;
+    border-bottom: solid 4px transparent;
+    margin-bottom: -4px;
+}
+
+.image-with-text {
+    position: relative;
+}
+
+.course-header {
+    text-align: left;
+    margin: 0px;
+    padding: 20px;
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.content-text-course {
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.course-timing {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.course-timing:before {
+    vertical-align: middle;
+    content: url("../images/timing.svg");
+    width:12px;
+    height:12px;
+}
+
+.course-timing:before svg {
+    width:12px;
+    height:12px;
+}
+
+.course-shown {
+    background-color: #f6f7f2;
+    height: 60px;
+    font-size: 16px;
+}
+
+.course-shown:before{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.course-shown-inner {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left:20px;
+}
+
+.course-shown-checkbox {
+    transform: scale(1.6);
+}
+
+.course-shown-text {
+    padding-left: 21px;
+}
+
+.inl-block-about {
+    width: 480px;
+    min-height: 200px;
+    background-position: 10px 0px;
+    background-repeat: no-repeat;
+    padding-left: 170px;
+    padding-right: 40px;
+}
+
+
+.task-completed {
+    width: 964px;
+    height: 160px;
+    display: none;
+}
+.task-completed-inner {
+}
+
+.task-completed-message {
+    color: #8cc34b;
+    font-size: 24px;
+    text-align: center;
+}
+
+.fl-left {
+    float: left;
+}
+
+.fl-right {
+    float: right
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.outer {
+    position: relative;
+    height: 72px;
+    width: 100%;
+}
+.inner {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.625em;
+    width: 100%;
+    color: #808080;
+    text-align: center;
+}
